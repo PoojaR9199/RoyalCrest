@@ -1,0 +1,48 @@
+#hero-section {
+    background-image: url("../../../public/assets/images/hotel4.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+p {
+    color: coral;
+    font-weight: bold;
+    font-size: large;
+}
+
+h1 {
+    /*font-size: 3.0rem;*/
+    font-size: 4.0rem;
+    font-weight: 700;
+    color: white;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+}
+
+#book-now-button{
+    background-color: coral;
+    width: fit-content;
+    
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+    #book-now-button a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+.container{
+   margin-left: 20%;
+   margin-top: -15%;
+}
